@@ -1,6 +1,6 @@
 .header-bg
 {
-    background-color: #000000;
+    background-color: var(--cor-12);
 }
 
 .header
@@ -40,7 +40,7 @@
     display: block;
     height: 2px;
     width: 0%;
-    background: #ffffff;
+    background: var(--cor-0);
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
@@ -60,14 +60,14 @@
 
     .header-menu a
     {
-        background: #111111; 
+        background: var(--cor-11); 
         padding: 12px 16px;  
         border-radius: 4px;
     }
 
     .header-menu a:hover
     {
-        background-color: #2e2e2e;
+        background-color: var(--cor-11);
     }
 
     .header-menu a:after
